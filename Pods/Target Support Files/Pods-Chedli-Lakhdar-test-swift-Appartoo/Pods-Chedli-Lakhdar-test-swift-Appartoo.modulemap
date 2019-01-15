@@ -1,0 +1,6 @@
+framework module Pods_Chedli_Lakhdar_test_swift_Appartoo {
+  umbrella header "Pods-Chedli-Lakhdar-test-swift-Appartoo-umbrella.h"
+
+  export *
+  module * { export * }
+}

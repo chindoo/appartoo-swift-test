@@ -1,0 +1,26 @@
+PODS:
+  - ObjectMapper (3.4.2)
+  - SDWebImage (4.4.3):
+    - SDWebImage/Core (= 4.4.3)
+  - SDWebImage/Core (4.4.3)
+  - SwiftyJSON (4.2.0)
+
+DEPENDENCIES:
+  - ObjectMapper (~> 3.4)
+  - SDWebImage (~> 4.0)
+  - SwiftyJSON (~> 4.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ObjectMapper
+    - SDWebImage
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  ObjectMapper: 0d4402610f4e468903ae64629eec4784531e5c51
+  SDWebImage: c5594f1a19c48d526d321e548902b56b479cd508
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+
+PODFILE CHECKSUM: 77b9b3001d04a48f5a734b1adb1d4786f02ade6a
+
+COCOAPODS: 1.5.3

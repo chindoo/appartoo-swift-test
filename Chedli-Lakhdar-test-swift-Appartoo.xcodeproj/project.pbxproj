@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9655F39D21EE4A7C008BA0C4 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9655F39C21EE4A7C008BA0C4 /* TabBarViewController.swift */; };
+		967E0C8521EE2A97002B453A /* Bar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967E0C8421EE2A97002B453A /* Bar.swift */; };
+		967E0C8721EE2AB9002B453A /* BarsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967E0C8621EE2AB9002B453A /* BarsTableViewController.swift */; };
+		967E0C8A21EE2B62002B453A /* BarsAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967E0C8921EE2B62002B453A /* BarsAPIService.swift */; };
+		967E0C8E21EE3149002B453A /* BarsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967E0C8D21EE3149002B453A /* BarsTableViewCell.swift */; };
+		967E0C9021EE4390002B453A /* AnnotationPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967E0C8F21EE4390002B453A /* AnnotationPin.swift */; };
+		967E0C9221EE43EF002B453A /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967E0C9121EE43EF002B453A /* MapViewController.swift */; };
+		96949F7021EE26CA00B74E9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96949F6F21EE26CA00B74E9F /* AppDelegate.swift */; };
+		96949F7721EE26CA00B74E9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96949F7521EE26CA00B74E9F /* Main.storyboard */; };
+		96949F7921EE26CC00B74E9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96949F7821EE26CC00B74E9F /* Assets.xcassets */; };
+		96949F7C21EE26CC00B74E9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96949F7A21EE26CC00B74E9F /* LaunchScreen.storyboard */; };
+		96949F8421EE270200B74E9F /* Pense bete.json in Resources */ = {isa = PBXBuildFile; fileRef = 96949F8321EE270200B74E9F /* Pense bete.json */; };
+		D01E4961732C9BE6A32B3982 /* Pods_Chedli_Lakhdar_test_swift_Appartoo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A7A5DF8AD414C180D2AD7ED /* Pods_Chedli_Lakhdar_test_swift_Appartoo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		61D5A6D548E2C675E9B8B6F9 /* Pods-Chedli-Lakhdar-test-swift-Appartoo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chedli-Lakhdar-test-swift-Appartoo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Chedli-Lakhdar-test-swift-Appartoo/Pods-Chedli-Lakhdar-test-swift-Appartoo.debug.xcconfig"; sourceTree = "<group>"; };
+		7A7A5DF8AD414C180D2AD7ED /* Pods_Chedli_Lakhdar_test_swift_Appartoo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chedli_Lakhdar_test_swift_Appartoo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9655F39C21EE4A7C008BA0C4 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		967E0C8421EE2A97002B453A /* Bar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bar.swift; sourceTree = "<group>"; };
+		967E0C8621EE2AB9002B453A /* BarsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarsTableViewController.swift; sourceTree = "<group>"; };
+		967E0C8921EE2B62002B453A /* BarsAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarsAPIService.swift; sourceTree = "<group>"; };
+		967E0C8D21EE3149002B453A /* BarsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarsTableViewCell.swift; sourceTree = "<group>"; };
+		967E0C8F21EE4390002B453A /* AnnotationPin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationPin.swift; sourceTree = "<group>"; };
+		967E0C9121EE43EF002B453A /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		96949F6C21EE26C900B74E9F /* Chedli-Lakhdar-test-swift-Appartoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chedli-Lakhdar-test-swift-Appartoo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96949F6F21EE26CA00B74E9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		96949F7621EE26CA00B74E9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		96949F7821EE26CC00B74E9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96949F7B21EE26CC00B74E9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		96949F7D21EE26CC00B74E9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96949F8321EE270200B74E9F /* Pense bete.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Pense bete.json"; sourceTree = "<group>"; };
+		CD5DBD697627189717D071B2 /* Pods-Chedli-Lakhdar-test-swift-Appartoo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chedli-Lakhdar-test-swift-Appartoo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Chedli-Lakhdar-test-swift-Appartoo/Pods-Chedli-Lakhdar-test-swift-Appartoo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96949F6921EE26C900B74E9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D01E4961732C9BE6A32B3982 /* Pods_Chedli_Lakhdar_test_swift_Appartoo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17F3EC5D4D421A83035F2460 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				61D5A6D548E2C675E9B8B6F9 /* Pods-Chedli-Lakhdar-test-swift-Appartoo.debug.xcconfig */,
+				CD5DBD697627189717D071B2 /* Pods-Chedli-Lakhdar-test-swift-Appartoo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		967E0C8321EE2A7A002B453A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				967E0C8421EE2A97002B453A /* Bar.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		967E0C8821EE2B4C002B453A /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				967E0C8921EE2B62002B453A /* BarsAPIService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		967E0C8C21EE3131002B453A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				967E0C8D21EE3149002B453A /* BarsTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		96949F6321EE26C900B74E9F = {
+			isa = PBXGroup;
+			children = (
+				96949F6E21EE26C900B74E9F /* Chedli-Lakhdar-test-swift-Appartoo */,
+				96949F6D21EE26C900B74E9F /* Products */,
+				17F3EC5D4D421A83035F2460 /* Pods */,
+				CF4085A055885A4AC44D830B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		96949F6D21EE26C900B74E9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96949F6C21EE26C900B74E9F /* Chedli-Lakhdar-test-swift-Appartoo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96949F6E21EE26C900B74E9F /* Chedli-Lakhdar-test-swift-Appartoo */ = {
+			isa = PBXGroup;
+			children = (
+				967E0C8C21EE3131002B453A /* Cells */,
+				967E0C8821EE2B4C002B453A /* Network */,
+				967E0C8321EE2A7A002B453A /* Model */,
+				96949F6F21EE26CA00B74E9F /* AppDelegate.swift */,
+				967E0C8621EE2AB9002B453A /* BarsTableViewController.swift */,
+				967E0C9121EE43EF002B453A /* MapViewController.swift */,
+				967E0C8F21EE4390002B453A /* AnnotationPin.swift */,
+				96949F7521EE26CA00B74E9F /* Main.storyboard */,
+				96949F7821EE26CC00B74E9F /* Assets.xcassets */,
+				96949F7A21EE26CC00B74E9F /* LaunchScreen.storyboard */,
+				96949F7D21EE26CC00B74E9F /* Info.plist */,
+				96949F8321EE270200B74E9F /* Pense bete.json */,
+				9655F39C21EE4A7C008BA0C4 /* TabBarViewController.swift */,
+			);
+			path = "Chedli-Lakhdar-test-swift-Appartoo";
+			sourceTree = "<group>";
+		};
+		CF4085A055885A4AC44D830B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A7A5DF8AD414C180D2AD7ED /* Pods_Chedli_Lakhdar_test_swift_Appartoo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96949F6B21EE26C900B74E9F /* Chedli-Lakhdar-test-swift-Appartoo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96949F8021EE26CC00B74E9F /* Build configuration list for PBXNativeTarget "Chedli-Lakhdar-test-swift-Appartoo" */;
+			buildPhases = (
+				A367C3AF5BA62ED551EE1427 /* [CP] Check Pods Manifest.lock */,
+				96949F6821EE26C900B74E9F /* Sources */,
+				96949F6921EE26C900B74E9F /* Frameworks */,
+				96949F6A21EE26C900B74E9F /* Resources */,
+				01BDB432821D234039D06924 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Chedli-Lakhdar-test-swift-Appartoo";
+			productName = "Chedli-Lakhdar-test-swift-Appartoo";
+			productReference = 96949F6C21EE26C900B74E9F /* Chedli-Lakhdar-test-swift-Appartoo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96949F6421EE26C900B74E9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = appartoo;
+				TargetAttributes = {
+					96949F6B21EE26C900B74E9F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 96949F6721EE26C900B74E9F /* Build configuration list for PBXProject "Chedli-Lakhdar-test-swift-Appartoo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96949F6321EE26C900B74E9F;
+			productRefGroup = 96949F6D21EE26C900B74E9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96949F6B21EE26C900B74E9F /* Chedli-Lakhdar-test-swift-Appartoo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96949F6A21EE26C900B74E9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96949F7C21EE26CC00B74E9F /* LaunchScreen.storyboard in Resources */,
+				96949F7921EE26CC00B74E9F /* Assets.xcassets in Resources */,
+				96949F8421EE270200B74E9F /* Pense bete.json in Resources */,
+				96949F7721EE26CA00B74E9F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01BDB432821D234039D06924 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Chedli-Lakhdar-test-swift-Appartoo/Pods-Chedli-Lakhdar-test-swift-Appartoo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Chedli-Lakhdar-test-swift-Appartoo/Pods-Chedli-Lakhdar-test-swift-Appartoo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A367C3AF5BA62ED551EE1427 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Chedli-Lakhdar-test-swift-Appartoo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96949F6821EE26C900B74E9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9655F39D21EE4A7C008BA0C4 /* TabBarViewController.swift in Sources */,
+				967E0C9021EE4390002B453A /* AnnotationPin.swift in Sources */,
+				967E0C8521EE2A97002B453A /* Bar.swift in Sources */,
+				967E0C8721EE2AB9002B453A /* BarsTableViewController.swift in Sources */,
+				967E0C8E21EE3149002B453A /* BarsTableViewCell.swift in Sources */,
+				96949F7021EE26CA00B74E9F /* AppDelegate.swift in Sources */,
+				967E0C8A21EE2B62002B453A /* BarsAPIService.swift in Sources */,
+				967E0C9221EE43EF002B453A /* MapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		96949F7521EE26CA00B74E9F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96949F7621EE26CA00B74E9F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		96949F7A21EE26CC00B74E9F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96949F7B21EE26CC00B74E9F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96949F7E21EE26CC00B74E9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		96949F7F21EE26CC00B74E9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96949F8121EE26CC00B74E9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61D5A6D548E2C675E9B8B6F9 /* Pods-Chedli-Lakhdar-test-swift-Appartoo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = REMYGYFCZ2;
+				INFOPLIST_FILE = "Chedli-Lakhdar-test-swift-Appartoo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appartoo.Chedli-Lakhdar-test-swift-Appartoo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		96949F8221EE26CC00B74E9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD5DBD697627189717D071B2 /* Pods-Chedli-Lakhdar-test-swift-Appartoo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = REMYGYFCZ2;
+				INFOPLIST_FILE = "Chedli-Lakhdar-test-swift-Appartoo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appartoo.Chedli-Lakhdar-test-swift-Appartoo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96949F6721EE26C900B74E9F /* Build configuration list for PBXProject "Chedli-Lakhdar-test-swift-Appartoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96949F7E21EE26CC00B74E9F /* Debug */,
+				96949F7F21EE26CC00B74E9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96949F8021EE26CC00B74E9F /* Build configuration list for PBXNativeTarget "Chedli-Lakhdar-test-swift-Appartoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96949F8121EE26CC00B74E9F /* Debug */,
+				96949F8221EE26CC00B74E9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96949F6421EE26C900B74E9F /* Project object */;
+}
